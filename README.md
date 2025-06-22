@@ -7,5 +7,9 @@ TCP for connections, epoll for monitoring. Rest is pure C++
 ## Requirements: 
 Linux is all you need, as epoll is a kernel feature. And maybe a compiler.
 
+## How to run it?
+Just run `make` and then execute the server binary (`./build/server`)
+From another terminal, or another device, run `./build/client`. Follow the on-screen instructions.
+
 ## License:
 MIT
